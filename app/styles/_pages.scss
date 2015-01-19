@@ -10,8 +10,8 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -20,11 +20,12 @@ body {
 .footer {
     padding-left: 15px;
     padding-right: 15px;
+
 }
 
 /* Custom page header */
 .header {
-    border-bottom: 1px solid #e5e5e5;
+    // border-bottom: 1px solid #e5e5e5;
 
     /* Make the masthead heading the same height as the navigation */
     h3 {
@@ -37,9 +38,14 @@ body {
 
 /* Custom page footer */
 .footer {
-    padding-top: 19px;
+    padding: 12px 4px 12px 4px;
     color: #777;
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #000;
+    background-color: #000;
+    border-radius: 0px 0px 6px 6px;
+    text-align: center;
+    font-family: UomoPiccolo; 
+    font-size: 1.0em;
 }
 
 .container-narrow > hr {
@@ -48,7 +54,9 @@ body {
 
 
 
-
+.UomoBold { font-family: UomoBold; }
+.UomoPiccolo { font-family: UomoPiccolo; }
+.Emblema-Headline1Basic { font-family: Emblema-Headline1Basic; }
 
 
 
@@ -62,24 +70,83 @@ video#bgvid {
     background-size: cover;
 }
 
-.jumbotron {
-    text-align: center;
-    border-bottom: 1px solid #e5e5e5;
-    p{
-        font-size: 1.2em;
-    }
-    .jumboinner{
-        text-align: left;
-        p{
-            font-size: 1em;
+.container{
+
+        .jumbotron {
+        text-align: center;
+        border-bottom: 1px solid #e5e5e5;
+        // background: url(../images/pattern.png);
+        background-color: #ddd;
+        opacity: 0.96;
+
+        margin-bottom:  0px;
+        border-radius: 6px 6px 0px 0px;
+
+        h3{
+            font-family: 'deftone_stylusregular';
+            font-size: 2.2em;
         }
-        
+        h4{
+            font-family: UomoBold;
+            font-size: 1.8em;
+            margin-top: 10%;
+
+        }
+        p{
+            font-size: 1.2em;
+        }
+        .jumboinner{
+            text-align: left;
+            p{
+                font-size: 1.2em;
+                a, a:link, a:active, a:visited{
+                    color: #444;
+                    font-weight: 200;
+                    text-decoration: underline;
+
+                }
+                a:hover{
+                    color: #000;
+                    font-weight: 200;
+                    text-decoration: underline;
+
+                }
+            }
+
+            form.wufoo{
+                margin: 20px 14px 0 0px;
+                .desc {
+                    font-size: 1.1em;
+                    font-weight: 100;
+                }
+
+                .info{
+                    padding: 0 1% 1.1em 0;
+                    p{
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+            
+        }
+        .btn {
+            font-size: 1.2em;
+            padding: 14px 24px;
+            font-family: UomoBold;
+        }
+        #thing-with-videos{
+            opacity: 1;
+        }
+
+
     }
-    .btn {
-        font-size: 1.2em;
-        padding: 14px 24px;
-    }
+
+
+
+
 }
+
+
 
 
 
@@ -93,7 +160,10 @@ video#bgvid {
 
 
 
-
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+    color: white;
+    background-color: #000;
+}
 
 
 
@@ -113,7 +183,8 @@ video#bgvid {
 
     /* Space out the masthead */
     .header {
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
+        min-height: 44px;
     }
 
     /* Remove the bottom border on the jumbotron for visual effect */

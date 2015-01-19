@@ -40,7 +40,7 @@ form ul {
 }
 form li {
     margin: 0;
-    padding: 6px 1% 9px 1%;
+    padding: 6px 1% 9px 0%;
     clear: both;
     background-color: transparent;
     position: relative;
@@ -205,7 +205,7 @@ input.text, input.search, input.file, textarea.textarea, select.select {
     font-size: 100%;
     color: #333;
     margin: 0;
-    padding: 2px 0
+    padding: 2px;
 }
 input.text, input.search, textarea.textarea {
     border-top: 1px solid #7c7c7c;

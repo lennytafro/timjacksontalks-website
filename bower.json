@@ -4,7 +4,8 @@
   "dependencies": {
     "bootstrap-sass-official": "~3.1.0",
     "jquery": "~1.11.0",
-    "BigVideo.js": "~1.1.4"
+    "BigVideo.js": "~1.1.4",
+    "fitvids": "~1.1.0"
   },
   "devDependencies": {}
 }

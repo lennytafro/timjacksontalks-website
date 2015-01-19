@@ -2,7 +2,9 @@
 @import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
+@import "fonts";
 
-@import "pages";
 @import "wufooform";
 @import "wufoostructure";
+
+@import "pages";
